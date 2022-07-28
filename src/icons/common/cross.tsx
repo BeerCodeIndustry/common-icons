@@ -1,3 +1,5 @@
+import * as React from 'react'
+
 export default (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -25,4 +27,4 @@ export default (
       stroke-width="4"
     />
   </svg>
-);
+)

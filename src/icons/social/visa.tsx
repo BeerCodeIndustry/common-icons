@@ -1,3 +1,5 @@
+import * as React from 'react'
+
 export default (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -14,4 +16,4 @@ export default (
     />
     <path fill="none" d="M0 0h141.732v141.732H0z" />
   </svg>
-);
+)

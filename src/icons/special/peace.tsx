@@ -1,3 +1,5 @@
+import * as React from 'react'
+
 export default (
   <svg
     width="46"
@@ -14,4 +16,4 @@ export default (
       fill="white"
     ></path>
   </svg>
-);
+)

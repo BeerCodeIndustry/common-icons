@@ -1,3 +1,5 @@
+import * as React from 'react'
+
 export default (
   <svg
     width="48"
@@ -68,4 +70,4 @@ export default (
       stroke-linejoin="round"
     />
   </svg>
-);
+)
