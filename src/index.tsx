@@ -1,3 +1,6 @@
 export * as social from './icons/social'
 export * as common from './icons/common'
 export * as special from './icons/special'
+export * from './icons/social'
+export * from './icons/common'
+export * from './icons/special'
