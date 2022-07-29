@@ -1,10 +1,10 @@
 import * as React from 'react'
 import { IconProps } from '../../types'
 
-export default ({ className }: IconProps) => {
+export default (props: IconProps) => {
   return (
     <svg
-      className={className}
+      {...props}
       width="46"
       height="46"
       viewBox="0 0 46 46"

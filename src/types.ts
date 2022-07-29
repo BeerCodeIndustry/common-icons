@@ -1,1 +1,1 @@
-export interface IconProps extends React.HTMLAttributes<HTMLElement> {}
+export interface IconProps extends React.SVGProps<SVGSVGElement> {}
