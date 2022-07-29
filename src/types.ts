@@ -1,3 +1,1 @@
-export interface IconProps {
-  className?: string
-}
+export interface IconProps extends React.HTMLAttributes<HTMLElement> {}
