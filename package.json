@@ -7,6 +7,9 @@
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "repository": "git://github.com/BeerCodeIndustry/common-icons.git",
+  "publishConfig": {
+    "@beer-code-industry:registry":"https://npm.pkg.github.com"
+  },
   "scripts": {
     "build": "rollup -c rollup.config.ts",
     "format": "prettier --write \"src/**/*.ts\" ",
