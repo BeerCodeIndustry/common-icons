@@ -7,11 +7,14 @@
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "repository": "git://github.com/BeerCodeIndustry/common-icons.git",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "build": "rollup -c rollup.config.ts",
     "format": "prettier --write \"src/**/*.ts\" ",
     "lint": "eslint \"*/**/*.{ts,js}\" --quiet --fix",
-    "publish-build": "yarn build && npm publish --access=public"
+    "publish-lib": "yarn build && npm publish --access=public"
   },
   "dependencies": {
     "@types/styled-components": "^5.1.25",
