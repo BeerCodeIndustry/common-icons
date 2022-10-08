@@ -1,6 +1,6 @@
 {
   "name": "@beercode/common-icons",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "private": false,
   "description": "Library containing all icons used in the Beer Code Industry ecosystem.",
   "main": "dist/index.cjs.js",
