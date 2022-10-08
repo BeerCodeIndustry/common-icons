@@ -1,3 +1,7 @@
 export { default as arrowToTop } from './arrowToTop'
 export { default as arrowChecked } from './arrowChecked'
 export { default as cross } from './cross'
+export { default as chevronDown } from './chevronDown'
+export { default as chevronUp } from './chevronUp'
+export { default as chevronLeft } from './chevronLeft'
+export { default as chevronRight } from './chevronRight'
