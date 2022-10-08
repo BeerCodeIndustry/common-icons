@@ -1,7 +1,7 @@
 import * as React from 'react'
-import { IconProps } from '../../types'
+import { IconProps, IconReturnType } from '../../types'
 
-export default (props: IconProps) => {
+export default (props: IconProps): IconReturnType => {
   return (
     <svg
       {...props}
